@@ -1,0 +1,42 @@
+Algoritmo practica1
+	Definir res,num1,num2 Como Entero
+	Escribir "Escribe el primer numero"
+	Leer num1 
+	Escribir "Escribe el segundo numero"
+	Leer num2
+	
+	//suma
+	res = num1 + num2
+	Escribir "El resultado de la suma es:"
+	Escribir num1," + ",num2," = ", res
+	//resta
+	Escribir "El resultado de la resta es:"
+	res = num1 - num2
+	Escribir num1," - ",num2," = ", res
+	
+	//multiplicación
+	Escribir "El resultado de la multiplicación es:"
+	res = num1 * num2
+	Escribir num1," * ",num2," = ", res
+	
+	//division
+	Escribir "El resultado de la division es:"
+	res = num1 / num2
+	Escribir num1," / ",num2," = ", res
+	
+	//modulo
+	Escribir "El resultado del modulo es:"
+	res = num1 % num2
+	Escribir num1," % ",num2," = ", res
+	
+	//potencia
+	Escribir "El resultado de la resta es:"
+	res = num1^num2 
+	Escribir num1,"^",num2," = ", res
+	
+	//terminar
+	
+
+	
+	
+FinAlgoritmo
