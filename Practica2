@@ -1,0 +1,16 @@
+Algoritmo Practica2
+	Definir  num1,num2 Como Entero
+	Escribir "Dame el primer valor"
+	Leer num1
+	Escribir "Dame el segundo valor"
+	Leer num2
+	SI num1 > num2 Entonces
+		Escribir num1," es mayor que ",num2
+	SiNo
+		si num1 < num2 Entonces
+			Escribir "Num1 es menor que Num2"
+		SiNo
+			Escribir "num1 es igual que num2"
+		FinSi
+	FinSi
+FinAlgoritmo
