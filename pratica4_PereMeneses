@@ -1,0 +1,37 @@
+Algoritmo pratica4_PereMeneses
+	
+	kilo=28
+	
+	Escribir "Digite segun lo deseado"
+	Escribir "1. Kilos a Pesos"
+	Escribir "2. Pesos a kilos"
+	Leer opc
+	
+	Segun opc Hacer
+		1:
+			Escribir"Cuanto kilos de tortilla desea comprar"
+			Leer kilos
+			si kilos <0 Entonces
+				Escribir "No puedes comprar kilos negativos"
+			
+			SiNo
+			total=kilos*kilo
+			Escribir "Debe pagar ",total
+			FinSi
+		
+			
+		2:
+			Escribir "Cuantos pesos de tortilla desea comprar"
+			Leer pesos
+			si pesos<0 Entonces
+				Escribir "No puedes comprar pesos negativos"
+			SiNo
+			total=pesos/kilo
+			Escribir "Usted comprara ",total," kilos"
+			FinSi
+		
+		De Otro Modo:
+			Escribir "Porfavor digite una opcion disponible"
+	Fin Segun
+	
+FinAlgoritmo
