@@ -1,0 +1,35 @@
+Algoritmo modificado04
+	//hacer un programa que me ayude a vender tortillas, que me pida el precio del kilo de la tortilla, que me pida la cantidad de monedas de cuanto quiere em tortillas, y que me pida cuantos kilos le tengo que dar
+	//cuanto cuesta, cuanto quiere, cuanto equivale
+	Definir precio, quiere, equivale, kilos Como Real
+	Definir Opcion1 Como Entero
+	Escribir "¿Cuanto vale el Kilo de Tortilla?"
+	Leer precio
+	Si precio < 0 Entonces
+		Escribir "No te pueden cobrar un numero negativo"
+	SiNo
+		Escribir "¿DESEA PEDIR EN CANTIDAD/PESOS (1) O EN KILOGRAMOS (2)?"
+		Leer Opcion1
+		si Opcion1 = 1 Entonces
+			Escribir "¿Cuantos pesos de tortilla quiere o desea?"
+			Leer quiere
+			si quiere < 0 Entonces
+				Escribir "No puedes querer un numero negativo de tortillas"
+			SiNo
+				kilos = quiere / precio
+				equivale = quiere
+				Escribir "Serian $", equivale, " de ", kilos, " kilos de tortilla"
+			FinSi
+		FinSi
+		si Opcion1 = 2  Entonces
+			Escribir "¿Cuantos Kilos de torilla quiere o desea?"
+			Leer quiere
+			si quiere < 0 Entonces
+				Escribir "No puedes querer un numero negativo de torillas"
+			SiNo
+				equivale = precio * quiere
+				Escribir "Serian $", equivale, " de ", quiere, " Kilos de tortilla"
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
