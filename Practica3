@@ -1,0 +1,13 @@
+Algoritmo Practica3
+	//solicita un numero entero y que diga si es par o impar
+	Definir num como entero
+	Escribir "Dame un numero entero"
+	Leer num
+	si num % 2 = 0 Entonces
+		Escribir num,"es par"
+	SiNo
+		Escribir num,"es impar"
+	FinSi
+ 	
+	
+FinAlgoritmo
