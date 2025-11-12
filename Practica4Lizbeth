@@ -1,0 +1,18 @@
+Algoritmo Practica4Lizbeth
+	Definir precio, cantidad Como Entero
+	Escribir "¿Cual es el precio del kilo?"
+	Leer precio
+	Escribir "¿Quieres comprar en gramos o en pesos? (Escribe -gramos- o -pesos-) "
+	Leer opc
+	Si opc = "gramos" Entonces
+		Escribir "¿Cuanto quieres comprar en gramos?"
+		Leer gramos
+		total_pagar = gramos/1000*precio
+		Escribir "Debes pagar $" total_pagar " por " gramos " gramos de tortilla"	
+	SiNo
+		Escribir "¿Cuanto quieres comprar en pesos?"
+		Leer cantidad
+		grs = cantidad/precio * 1000
+		Escribir "Con $ " cantidad " puedes comprar " grs " grs de tortilla"
+	Fin Si
+	
