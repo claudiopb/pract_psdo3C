@@ -1,0 +1,36 @@
+Algoritmo prec4Santos
+	//hacer un programa que me ayude a vender tortillas, que me pida el precio del kilo de la tortilla, que me pida la cantidad de monedas de cuanto quiere em tortillas, y que me pida cuantos kilos le tengo que dar
+	//cuanto cuesta, cuanto quiere, cuanto equivale
+	Definir precio, quiere, equivale Como Real
+	Escribir "¿Cuanto vale el Kilo de Tortilla?"
+	Leer precio
+	Si precio < 0 Entonces
+		Escribir "No te pueden cobrar un numero negativo"
+	SiNo
+		Escribir "¿Cuantos Kilos de torilla quiere o desea?"
+		Leer quiere
+		si quiere < 0 Entonces
+			Escribir "No puedes querer un numero negativo de torillas"
+		SiNo
+			equivale = precio * quiere
+			Escribir "Serian $", equivale, " de ", quiere, " Kilos de tortilla"
+		FinSi
+	FinSi
+	Escribir " "
+	Definir precio2, quiere2, equivale2, kilos2 Como Real
+	Escribir "¿Cuanto vale el Kilo de Tortilla?"
+	Leer precio2
+	Si precio2 < 0 Entonces
+		Escribir "No te pueden cobrar un numero negativo"
+	SiNo
+		Escribir "¿Cuantos pesos de tortilla quiere o desea?"
+		Leer quiere2
+		si quiere2 < 0 Entonces
+			Escribir "No puedes querer un numero negativo de tortillas"
+		SiNo
+			kilos2 = quiere2 / precio2
+			equivale2 = quiere2
+			Escribir "Serian $", equivale2, " de ", kilos2, " kilos de tortilla"
+		FinSi
+	FinSi
+FinAlgoritmo
