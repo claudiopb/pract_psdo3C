@@ -1,0 +1,14 @@
+Algoritmo practica7_for
+	Definir i, suma como entero
+	suma = 0
+	Para i=1 Hasta 5 Con Paso 1 Hacer
+		Escribir i
+		Escribir " "
+		suma=suma+i
+		
+	FinPara
+	Escribir "La suma total es: " suma
+	
+	
+	
+FinAlgoritmo
