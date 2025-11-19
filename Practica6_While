@@ -1,0 +1,13 @@
+Algoritmo Practica6_While
+	Definir cont como Entero
+	cont=1
+	Mientras cont <= 5  Hacer
+		Escribir cont 
+		Escribir " "
+		//Escribir suma
+		suma = suma + cont
+		cont = cont + 1
+	
+	Fin Mientras
+	Escribir "La suma Total es: ",suma
+FinAlgoritmo
