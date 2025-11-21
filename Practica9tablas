@@ -1,0 +1,23 @@
+Algoritmo Practica9tablas
+	Definir res,num,cont, op Como Entero
+Repetir
+	Escribir "Escribe la tabla a imprimir: "
+	Leer num
+	Para i = 1 Hasta 10 Con Paso 1 Hacer
+		Escribir i " * " num " = ", i * num
+	Fin Para
+	Escribir ""
+	Escribir "Quieres imprimir otra tabla ? (1 para Si o 2 para No)"
+	Leer op
+	si op = 1 Entonces
+		Limpiar Pantalla
+		Escribir "Ta Bueno :P"
+		Esperar 2 Segundos
+	FinSi
+	Limpiar Pantalla
+Hasta Que op <> 1
+
+Escribir "Fin del programa"
+Escribir ":("
+
+FinAlgoritmo
