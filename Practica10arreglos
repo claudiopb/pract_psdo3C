@@ -1,0 +1,19 @@
+Algoritmo Practica10arreglos
+	Definir array Como Entero
+	Dimensionar array[3]
+	array[1] = 6
+	array[2] = 9
+	array[3] = 8
+	Escribir array[1]
+	Escribir array[2]
+	Escribir array[3]
+	Escribir "Cambiando calificacion 2"
+	array[1]= 8
+	array[2] = 9
+	array[3]= 6
+	
+	Escribir array[1]
+	Escribir array[2]
+	Escribir array[3]
+		
+FinAlgoritmo
