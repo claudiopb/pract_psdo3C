@@ -1,1 +1,15 @@
-Pract
+####### sentencoa if
+import random
+
+edad = random.randint(1,100)
+print (f'edad {edad}')
+
+
+
+if edad <= 17:
+  print('Es menor de edad🥳')
+else:
+  print('es mayor')
+  
+print('termino el if')
+
