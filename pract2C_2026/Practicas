@@ -13,3 +13,22 @@ else:
   
 print('termino el if')
 
+########## promedio
+
+nombre = input("Introduce el nombre del alumno: ")
+calif1 = int(input("Introduce Calificacion 1: "))
+calif2 = int(input("Introduce Calificacion 2: "))
+calif3 = int(input("Introduce Calificacion 3: "))
+prom = (calif1+calif2+calif3)/3
+
+if (prom <= 6):
+    print( f"El Alumno {nombre}, su promedio es: {prom}, Reprobado")
+    print("No tiene derecho a titulacion")
+elif (prom >= 8):
+        print( f"El Alumno {nombre}, su promedio es: {prom}, Aprobado")
+        print("Si tiene derecho a titulacion")
+else:
+        print( f"El Alumno {nombre}, su promedio es: {prom}, Aprobado")
+        print("No tiene derecho a titulacion")
+                        
+
