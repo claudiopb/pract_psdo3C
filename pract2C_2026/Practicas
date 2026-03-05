@@ -30,5 +30,26 @@ elif (prom >= 8):
 else:
         print( f"El Alumno {nombre}, su promedio es: {prom}, Aprobado")
         print("No tiene derecho a titulacion")
+
+
+####### loop arreglos
+myFruits = ['banana','apple','orange']
+print(len(myFruits))
+print(range(len(myFruits)))
+i=0
+print("El valor actual de i es", i)
+print(myFruits[i])
+i+=1
+print("El valor actual de i es", i)
+print(myFruits[i])
+i+=1
+print("El valor actual de i es", i)
+print(myFruits[i])
+i+=1
+print("El valor actual de i es", i)
+print(myFruits[i])
+#for i in range(len(myFruits)):
+#  print(myFruits[i])
+
                         
 
