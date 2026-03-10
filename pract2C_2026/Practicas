@@ -59,6 +59,22 @@ for i in range(len(myFruits)):
 	print("El valor actual de i es", i)
 	print(myFruits[i])
 
+print('usando un for sin rangp :o')    
+for i in myFruits:  
+#   i en el rango de 0 - 4 | 0 1 2 3 4
+	print("El valor actual de i es", i)
+	print(i)
+
+###### encontra un elemento de un arreglo
+listOfNames = ['Jones','Jill','Lisa','Stan','Bob','Alice']
+
+for i in range(len(listOfNames)):
+  print(listOfNames[i])
+  if listOfNames[i] == 'Bob':
+    print('Found Bob!')
+    break
+
+
 
                         
 
