@@ -32,24 +32,33 @@ else:
         print("No tiene derecho a titulacion")
 
 
-####### loop arreglos
-myFruits = ['banana','apple','orange']
+####### loop arreglosmyFruits = ['banana','apple','orange','uvas','Zapote']
 print(len(myFruits))
 print(range(len(myFruits)))
 i=0
-print("El valor actual de i es", i)
-print(myFruits[i])
+print('usando un if :)')
+if(i <=3):
+	print("El valor actual de i es", i)
+	print(myFruits[i])
 i+=1
-print("El valor actual de i es", i)
-print(myFruits[i])
+if(i <=3):
+	print("El valor actual de i es", i)
+	print(myFruits[i])
 i+=1
-print("El valor actual de i es", i)
-print(myFruits[i])
+if(i <=3):
+	print("El valor actual de i es", i)
+	print(myFruits[i])
 i+=1
-print("El valor actual de i es", i)
-print(myFruits[i])
-#for i in range(len(myFruits)):
-#  print(myFruits[i])
+if ( i <= 3):
+	print("El valor actual de i es", i)
+	print(myFruits[i])
+print(' ')
+print('usando un for :o')    
+for i in range(len(myFruits)):  
+#   i en el rango de 0 - 4 | 0 1 2 3 4
+	print("El valor actual de i es", i)
+	print(myFruits[i])
+
 
                         
 
