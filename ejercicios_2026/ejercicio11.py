@@ -4,9 +4,8 @@ unique_list = []
 
 for elemento in data:
     if elemento not in unique_list:
-        unique_list.append(elemento)
+        unique_list = unique_list + [elemento]
 
 print("Lista original:", data)
 print("Lista sin duplicados:", unique_list)
-
 #corregir
