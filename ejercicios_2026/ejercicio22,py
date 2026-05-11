@@ -1,0 +1,10 @@
+base = 2 #definimos la base
+exp = 5 #definimos el exponente(cuantas veces se multiplica la base entre sí
+def exponente(base,exp):#definimos fumción con las variables de medida
+    res = 1#variable neutra la cual muestra el resultado
+    for n in range(exp):#por cada n en exp(5)
+        res = res * base#mi 1 se multiplica con la base tantas veces como lo indica exp
+    return res#resultado
+    
+print(base,"elevado a la potencia de",exp,":")      
+print(exponente(base,exp))  
