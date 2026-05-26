@@ -49,7 +49,4 @@ p1 = Person("Linus", 30, "Oslo", "Norway")
 # ==============================================================================
 
 # Usamos la "nomenclatura del punto" (objeto.atributo) para acceder a los datos guardados.
-print(p1.name)     # Imprime el nombre guardado en p1: "Linus"
-print(p1.age)      # Imprime la edad guardada en p1: 30
-print(p1.city)     # Imprime la ciudad guardada en p1: "Oslo"
-print(p1.country)  # Imprime el país guardado en p1: "Norway"
+print(p1.name," ",p1.age," ",p1.city," ",p1.country)     # Imprime el nombre guardado en p1: "Linus"
